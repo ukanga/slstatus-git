@@ -1,7 +1,7 @@
 # Maintainer: Ankit R Gadiya <arch@argp.in>
 
 pkgname=slstatus-git
-pkgver=r540.dd7f189
+pkgver=r552.b14e039
 pkgrel=1
 pkgdesc='A status monitor for window managers'
 arch=('i686' 'x86_64')
@@ -12,7 +12,8 @@ license=('custom:ISC')
 source=("git+https://git.suckless.org/${pkgname%-git}"
         "config.h")
 md5sums=('SKIP'
-         'ee7827d55ed1db925e722962a016be33')
+         '9b575f4553175fea8472f96bb8b47e1e'
+        )
 
 pkgver() {
     cd "${pkgname%-git}"
