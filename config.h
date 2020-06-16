@@ -61,11 +61,12 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ uptime, "\x01  %s " },
-	{ ipv4, "\x01 / \x01 %s ",  "wlan0"},
-	{ disk_free, "\x01 / \x01 %s ", "/home" },
-	{ battery_perc, "\x01 / \x01%s%%",        "BAT0" },
-	{ battery_state, " \x01%s",        "BAT0" },
-	{ battery_remaining, "\x01 %s",        "BAT0" },
-	{ datetime, "\x01 / \x01 %s",           "%F %T" },
+	{ uptime, "\x01  %s" },
+	{ ipv4, " |  %s ",  "wlan0"},
+	{ ipv4, " |  %s ",  "nordlynx"},
+	{ disk_free, "|  %s", "/home" },
+	{ battery_perc, " | %s%%",        "BAT0" },
+	{ battery_state, " %s",        "BAT0" },
+	{ battery_remaining, " %s",        "BAT0" },
+	{ datetime, "|  %s",           "%F %T" },
 };
