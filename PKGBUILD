@@ -1,7 +1,7 @@
 # Maintainer: Ankit R Gadiya <arch@argp.in>
 
 pkgname=slstatus-git
-pkgver=r552.b14e039
+pkgver=r561.84a2f11
 pkgrel=1
 pkgdesc='A status monitor for window managers'
 arch=('i686' 'x86_64')
