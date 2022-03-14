@@ -63,7 +63,6 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ uptime, "\x01  %s", NULL },
 	{ ipv4, " |  %s ",  "wlan0"},
-	{ ipv4, " |  %s ",  "nordlynx"},
 	{ disk_free, "|  %s", "/home" },
 	{ battery_perc, " | %s%%",        "BAT0" },
 	{ battery_state, " %s",        "BAT0" },

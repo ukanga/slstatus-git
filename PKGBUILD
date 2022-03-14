@@ -12,7 +12,7 @@ license=('custom:ISC')
 source=("git+https://git.suckless.org/${pkgname%-git}"
         "config.h")
 md5sums=('SKIP'
-         0621e17cd37b2868a4765b4544f839a4
+         b84ea9048ee99fa449ae5af524209ebc
         )
 
 pkgver() {
